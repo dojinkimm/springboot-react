@@ -2,10 +2,9 @@ package org.henry.programmers.todolist.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-import java.util.Date;
 
 @Entity
-@Table(name="todo")
+@Table(name="todo2")
 public class ToDo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
