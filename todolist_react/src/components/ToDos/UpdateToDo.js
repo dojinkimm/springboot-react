@@ -73,7 +73,7 @@ class UpdateToDo extends Component {
       <div className="container">
         <div className="container" style={{ padding: "20px" }}>
           <div className="m-auto">
-            <h1 className="text-center">To Do 수정하기</h1>
+            <h1 className="text-center">To Do 수정하기</h1> <small className="text-danger">  현재 영어로만 작성이 가능합니다</small>
             <form onSubmit={this.onSubmit}>
               {
                 //제목 작성하는 칸
@@ -87,7 +87,7 @@ class UpdateToDo extends Component {
                       "is-invalid": errors.summary
                   })}
                   name="title"
-                  placeholder="ToDo의 제목을 작성해주세요"
+                  placeholder="Please Enter Title in English"
                   value={this.state.title}
                   onChange={this.handleChange}
                 />
@@ -103,7 +103,7 @@ class UpdateToDo extends Component {
                 <textarea
                   id="contentInput"
                   className="form-control"
-                  placeholder="ToDo의 내용을 적어주세요"
+                  placeholder="Please Enter Content in English"
                   name="content"
                   value={this.state.content}
                   onChange={this.handleChange}
