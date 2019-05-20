@@ -3,6 +3,9 @@
 해당 프로그램을 확인할 수 있는 주소는 다음과 같습니다:
 https://springboot-react-app.herokuapp.com/
 
+src 폴더에서 spring boot의 코드를 확인할 수 있습니다.
+todolist_react 폴더에서는 react의 코드를 확인할 수 있습니다. react코드는 npm run build를 통해서 src>main>resources>static 에 build 파일로 넣어놨고, todolist_react는 따로 react 코드를 확인 할 수 있게 하기 위해 포함했습니다.
+
 > 현재 사이트는 heroku의 cleardb를 사용하고 있는데, character_set_server값들이 utf8로 바뀌지 않아서 ToDo를 영어로만 작성이 가능합니다.
 다만, 로컬에서 실행을 하면 영어로 작성이 가능해집니다.
 
