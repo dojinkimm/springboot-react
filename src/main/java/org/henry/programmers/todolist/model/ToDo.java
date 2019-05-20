@@ -11,7 +11,7 @@ public class ToDo {
     @Column(name="id")
     private Long id;
 
-    @NotBlank(message="Title must not be empty")
+    @NotBlank(message="제목은 필수 항목입니다")
     @Column(name="title")
     private String title;
     @Column(name="content")
