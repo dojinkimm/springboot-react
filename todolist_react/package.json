@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy":"https://springboot-react-app.herokuapp.com",
+  "proxy": "https://springboot-react-app.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },
